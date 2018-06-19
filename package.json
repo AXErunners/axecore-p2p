@@ -1,0 +1,68 @@
+{
+  "name": "bitcore-p2p-axe",
+  "version": "1.1.6",
+  "description": "Interface to the AXE p2p network for bitcore-axe",
+  "author": "AXErunners",
+  "main": "index.js",
+  "scripts": {
+    "lint": "gulp lint",
+    "test": "gulp test:node",
+    "coverage": "gulp coverage",
+    "build": "gulp"
+  },
+  "contributors": [
+    {
+      "name": "Yemel Jardi",
+      "email": "yemel@bitpay.com"
+    },
+    {
+      "name": "Braydon Fuller",
+      "email": "braydon@bitpay.com"
+    },
+    {
+      "name": "Ryan X. Charles",
+      "email": "ryan@bitpay.com"
+    },
+    {
+      "name": "Eric Martindale",
+      "email": "eric@bitpay.com"
+    },
+    {
+      "name": "Philip Hutchins",
+      "email": "philip@bitpay.com"
+    },
+    {
+      "name": "Manuel Araoz",
+      "email": "maraoz@bitpay.com"
+    },
+    {
+      "name": "Esteban Ordano",
+      "email": "eordano@gmail.com"
+    },
+    {
+      "name": "Elichai Turkel"
+    }
+  ],
+  "keywords": [
+    "bitcoin",
+    "bitcore"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/axerunners/bitcore-p2p-axe.git"
+  },
+  "dependencies": {
+    "bitcore-lib-axe": "^0.15.2",
+    "bloom-filter": "^0.2.0",
+    "node-buffers": "^0.1.1",
+    "socks5-client": "^0.3.6"
+  },
+  "devDependencies": {
+    "bitcore-build-axe": "axerunners/bitcore-build-axe",
+    "brfs": "^1.2.0",
+    "chai": "~1.10.0",
+    "gulp": "^3.8.10",
+    "sinon": "^1.12.2"
+  },
+  "license": "MIT"
+}
