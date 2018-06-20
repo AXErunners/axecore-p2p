@@ -1,23 +1,23 @@
 Bitcore P2P-AXE
 =======
 
-[![NPM Package](https://img.shields.io/npm/v/bitcore-p2p-axe.svg)](https://www.npmjs.org/package/bitcore-p2p-axe)
+[![NPM Package](https://img.shields.io/npm/v/axecore-p2p.svg)](https://www.npmjs.org/package/axecore-p2p)
 [![Build Status](https://travis-ci.org/AXErunners/axecore-p2p.svg?branch=master)](https://travis-ci.com/AXErunners/axecore-p2p)
 [![Coverage Status](https://img.shields.io/coveralls/AXErunners/axecore-p2p.svg)](https://coveralls.io/r/AXErunners/axecore-p2p?branch=master)
 
-`bitcore-p2p-axe` adds AXE protocol support for Bitcore-AXE.
+`axecore-p2p` adds AXE protocol support for Bitcore-AXE.
 
 See [the main bitcore-axe repo](https://github.com/axerunners/bitcore-axe) for more information.
 
 ## Getting Started
 
 ```sh
-npm install bitcore-p2p-axe
+npm install axecore-p2p
 ```
 In order to connect to the AXE network, you'll need to know the IP address of at least one node of the network, or use [Pool](/docs/pool.md) to discover peers using a DNS seed.
 
 ```javascript
-var Peer = require('bitcore-p2p-axe').Peer;
+var Peer = require('axecore-p2p').Peer;
 
 var peer = new Peer({host: '127.0.0.1'});
 

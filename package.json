@@ -1,6 +1,6 @@
 {
-  "name": "bitcore-p2p-axe",
-  "version": "1.1.7",
+  "name": "axecore-p2p",
+  "version": "1.1.8",
   "description": "Interface to the AXE p2p network for bitcore-axe",
   "author": "AXErunners",
   "main": "index.js",
@@ -49,7 +49,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/axerunners/bitcore-p2p-axe.git"
+    "url": "https://github.com/axerunners/axecore-p2p.git"
   },
   "dependencies": {
     "@axerunners/axecore-lib": "^0.15.2",
