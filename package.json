@@ -1,5 +1,5 @@
 {
-  "name": "axecore-p2p",
+  "name": "@axerunners/axecore-p2",
   "version": "1.1.8",
   "description": "Interface to the AXE p2p network for bitcore-axe",
   "author": "AXErunners",
