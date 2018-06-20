@@ -2,7 +2,7 @@ Bitcore P2P-AXE
 =======
 
 [![NPM Package](https://img.shields.io/npm/v/axecore-p2p.svg)](https://www.npmjs.org/package/axecore-p2p)
-[![Build Status](https://travis-ci.org/AXErunners/axecore-p2p.svg?branch=master)](https://travis-ci.com/AXErunners/axecore-p2p)
+[![Build Status](https://travis-ci.com/charlesrocket/axecore-p2p.svg?branch=master)](https://travis-ci.com/AXErunners/axecore-p2p)
 [![Coverage Status](https://img.shields.io/coveralls/AXErunners/axecore-p2p.svg)](https://coveralls.io/r/AXErunners/axecore-p2p?branch=master)
 
 `axecore-p2p` adds AXE protocol support for Bitcore-AXE.
