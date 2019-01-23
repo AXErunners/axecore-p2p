@@ -5,8 +5,8 @@ The quickest way to get connected is to run the following:
 
 ```javascript
 
-var Pool = require('bitcore-p2p').Pool;
-var Networks = require('bitcore-lib-axe').Networks;
+var Pool = require('axecore-p2p').Pool;
+var Networks = require('@axerunners/axecore-lib').Networks;
 
 var pool = new Pool({network: Networks.livenet});
 

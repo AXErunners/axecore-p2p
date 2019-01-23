@@ -1,4 +1,4 @@
-var bitcore = require('bitcore-lib-axe');
-bitcore.P2P = require('./lib');
+var axecore = require('@axerunners/axecore-lib');
+axecore.P2P = require('./lib');
 
-module.exports = bitcore.P2P;
+module.exports = axecore.P2P;
