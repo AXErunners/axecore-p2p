@@ -1,14 +1,13 @@
 {
   "name": "@axerunners/axecore-p2p",
-  "version": "1.1.8",
-  "description": "Interface to the AXE p2p network for bitcore-axe",
-  "author": "AXErunners",
+  "version": "1.1.9",
+  "description": "Interface to the axe P2P network for AXE Core",
+  "author": "BitPay <dev@bitpay.com>",
   "main": "index.js",
   "scripts": {
-    "lint": "gulp lint",
-    "test": "gulp test:node",
-    "coverage": "gulp coverage",
-    "build": "gulp"
+    "lint": "eslint .",
+    "test": "mocha",
+    "coverage": "nyc mocha"
   },
   "contributors": [
     {
@@ -45,23 +44,28 @@
   ],
   "keywords": [
     "bitcoin",
-    "bitcore"
+    "bitcore",
+    "axecore"
   ],
   "repository": {
     "type": "git",
     "url": "https://github.com/axerunners/axecore-p2p.git"
   },
   "dependencies": {
-    "@axerunners/axecore-lib": "^0.15.2",
+    "@axerunners/axecore-lib": "^0.16.5",
     "bloom-filter": "^0.2.0",
+    "mocha": "^5.2.0",
     "node-buffers": "^0.1.1",
-    "socks5-client": "^0.3.6"
+    "socks5-client": "^1.2.6"
   },
   "devDependencies": {
-    "bitcore-build-axe": "axerunners/bitcore-build-axe",
     "brfs": "^1.2.0",
     "chai": "~1.10.0",
-    "gulp": "^3.8.10",
+    "eslint": "^5.11.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "mocha": "^5.2.0",
+    "nyc": "^13.1.0",
     "sinon": "^1.12.2"
   },
   "license": "MIT"
