@@ -10,14 +10,14 @@ var expect = chai.expect;
 var sinon = require('sinon');
 var fs = require('fs');
 
-var bitcore = require('bitcore-lib-axe');
-var _ = bitcore.deps._;
+var axecore = require('@axerunners/axecore-lib');
+var _ = axecore.deps._;
 var P2P = require('../');
 var Peer = P2P.Peer;
 var EventEmitter = require('events').EventEmitter;
 var Messages = P2P.Messages;
 var messages = new Messages();
-var Networks = bitcore.Networks;
+var Networks = axecore.Networks;
 
 describe('Peer', function() {
 
@@ -118,7 +118,7 @@ describe('Peer', function() {
     peer2.proxy.host.should.equal('127.0.0.1');
     peer2.proxy.port.should.equal(9050);
     socket = peer2._getSocket();
-    socket.should.be.instanceof(Socks5Client);
+    socket.should.be.instanceof(Socks5Client.Socket);
 
     peer.should.equal(peer2);
   });

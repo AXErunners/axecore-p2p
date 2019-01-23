@@ -4,8 +4,8 @@
 
 var should = require('chai').should();
 var utils = require('../../lib/messages/utils');
-var bitcore = require('bitcore-lib-axe');
-var BufferReader = bitcore.encoding.BufferReader;
+var axecore = require('@axerunners/axecore-lib');
+var BufferReader = axecore.encoding.BufferReader;
 
 describe('Message Utils', function() {
 
