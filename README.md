@@ -2,8 +2,7 @@ AXEcore P2P
 =======
 
 [![NPM Package](https://img.shields.io/npm/v/@axerunners/axecore-p2p.svg?style=flat-square)](https://www.npmjs.org/package/@axerunners/axecore-p2p)
-[![Build Status](https://img.shields.io/travis/axerunners/axecore-p2p.svg?branch=master&style=flat-square)](https://travis-ci.org/axerunners/axecore-p2p)
-[![Coverage Status](https://img.shields.io/coveralls/axerunners/axecore-p2p.svg?style=flat-square)](https://coveralls.io/r/axerunners/axecore-p2p?branch=master)
+[![Build Status](https://img.shields.io/travis/com/AXErunners/axecore-p2p.svg?branch=master&style=flat-square)](https://travis-ci.com/AXErunners/axecore-p2p)
 
 `axecore-p2p` adds Axe protocol support for Axecore.
 
