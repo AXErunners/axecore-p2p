@@ -110,7 +110,7 @@ describe('Peer', function() {
     var peer, peer2, socket;
 
     peer = new Peer('localhost');
-    expect(peer.proxy).to.be.undefined();
+    expect(peer.proxy).to.be.undefined;
     socket = peer._getSocket();
     socket.should.be.instanceof(Net.Socket);
 
@@ -232,7 +232,7 @@ describe('Peer', function() {
   it('relay setting respected', function() {
     [true,false].forEach(function(relay) {
       var peer = new Peer({host: 'localhost', relay: relay});
-      var peerSendMessageStub = sinon.stub(Peer.prototype, 'sendMessage', function(message) {
+      var peerSendMessageStub = sinon.stub(Peer.prototype, 'sendMessage').callsFake(function(message) {
         message.relay.should.equal(relay);
       });
       peer._sendVersion();
