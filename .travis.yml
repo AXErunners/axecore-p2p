@@ -1,11 +1,13 @@
+dist: bionic
 language: node_js
+
+# Support Active LTS versions of Node.js
 node_js:
-- '6'
-- '8'
-before_install:
-  - export DISPLAY=:99.0
-  - sh -e /etc/init.d/xvfb start
+  - '10'
+  - '12'
+
 install:
-  - npm install
-after_script:
-  - gulp coveralls
+  - npm ci
+
+script:
+  - npm run test
